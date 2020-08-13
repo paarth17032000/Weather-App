@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--   bootstrap   -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!--   style sheet   -->
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
-<body class="text-capitalize">
+<body class="container text-capitalize">
+    <div class="display-4 text-center">~ Hey! your current status ~</div>
     <div id="position" class="d-flex justify-content-around">
-        <h1 id="city-name">Delhi</h1>
-        <h1 id="country-code">IN</h1>
+<!--   city name   -->
+        <h1 id="city-name"></h1>
+<!--    country name      -->
+        <h1 id="country-code"></h1>
     </div>
     <div id="details" class="d-flex flex-column align-items-center">
-        <h1 id="temp">30<sup>o</sup>&nbsp;C</h1>
-        <h1 id="description" class="mt-5">Sunny</h1> 
+<!--  temp  -->
+        <h1 id="temp"></h1>
+<!-- weather description -->
+        <h1 id="description" class="mt-5"></h1> 
     </div> 
 <script src="./app.js"></script>
 </body>
